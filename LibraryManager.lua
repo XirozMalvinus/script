@@ -199,8 +199,8 @@ local Library do
             ["Section Top"] = FromRGB(28, 27, 31),       -- Dark section header
             ["Section Background"] = FromRGB(10, 10, 12),-- Deep black section background
             ["Section Background 2"] = FromRGB(14, 14, 16),-- Alternate section, minimal difference
-            ["Accent"] = FromRGB(66, 245, 212)        -- Ice Basic Color
-            ["AccentGradient"] = FromRGB(0, 200, 180)  -- White gradient pair
+            ["Accent"] = FromRGB(66, 245, 212),        -- Ice Basic Color
+            ["AccentGradient"] = FromRGB(0, 200, 180),  -- White gradient pair
             ["Element"] = FromRGB(16, 16, 18)            -- Deep gray for UI elements
         }
     }
