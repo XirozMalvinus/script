@@ -905,7 +905,7 @@ local function DoRejoin()
     Configuration.Main_Settings["Autofarming"] = false
     Configuration.Statistics["Times Rejoined"] += 1
     queue_on_teleport([[
-        queue_on_teleport("task.wait(30)\ngetgenv().AutoRejoinerEnabled = true\nloadstring(game:HttpGet("https://luaegis.net/scripts/v4/loaders/94f566f0-8827-4dde-ad58-b6a2d73cfde8.lua"))()
+        queue_on_teleport("task.wait(30)\ngetgenv().AutoRejoinerEnabled = true\nloadstring(game:HttpGet("https://raw.githubusercontent.com/XirozMalvinus/script/refs/heads/main/masgalv3.lua"))()
 
 ")
     ]])
