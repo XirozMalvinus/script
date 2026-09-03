@@ -8666,7 +8666,7 @@ local Library do
             UISection:Dropdown({
                 Name = "Font weight",
                 Flag = "FontStyle",
-                Default = "Light",
+                Default = "ExtraBold",
                 Items = { "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold" },
                 Callback = function(Value)
                     local FontData = Library.Fonts[Value]
@@ -8679,7 +8679,7 @@ local Library do
 
             UISection:Slider({
                 Name = "Background Transparency",
-                Default = 0.12,
+                Default = 0,
                 Decimals = 0.01,
                 Max = 1,
                 Min = 0,
@@ -8695,7 +8695,7 @@ local Library do
                 Flag = "DPIScale",
                 Min = 50,
                 Max = 200,
-                Default = 100,
+                Default = 92,
                 Suffix = "%",
                 Callback = function(Value)
                     Library:SetDPIScale(Value)
