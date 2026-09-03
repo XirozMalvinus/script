@@ -198,9 +198,9 @@ local Library do
             ["Outline"] = FromRGB(25, 25, 28),           -- Subtle outline, almost invisible
             ["Section Top"] = FromRGB(28, 27, 31),       -- Dark section header
             ["Section Background"] = FromRGB(10, 10, 12),-- Deep black section background
-            ["Section Background 2"] = FromRGB(14, 14, 16),-- Alternate section, minimal difference
-            ["Accent"] = FromRGB(255, 255, 255),
-            ["AccentGradient"] = FromRGB(0, 244, 255), gradient pair
+            ["Section Background 2"] = FromRGB(14, 14, 16),-- Alternate section, minimal differenc
+            ["Accent"] = FromRGB(186, 255, 0),        -- #BAFF00 (kuning-hijau)
+            ["AccentGradient"] = FromRGB(0, 255, 63), -- #00FF3F (hijau terang)
             ["Element"] = FromRGB(16, 16, 18)            -- Deep gray for UI elements
         }
     }
