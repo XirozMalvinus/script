@@ -6531,15 +6531,6 @@ local Library do
 
             --Slider.Section.Items["Fade"].Instance.Size = UDim2New(1, 0, 0, Slider.Section.Items["Content"].Instance.AbsoluteSize.X - 180)
 
-            --Items["Value"].Instance.TextTransparency = 1
-            if IsMobile then
-                Items["RealSlider"].Instance.Position = UDim2New(0, 20, 1, -6)
-                Items["Text"].Instance.Position = UDim2New(0, 0, 0, 0)
-            else
-                Items["RealSlider"].Instance.Position = UDim2New(0, 80, 1, -3)
-                Items["Text"].Instance.Position = UDim2New(0, 80, 0, 0)
-            end
-
             function Slider:Get()
                 return Slider.Value 
             end
